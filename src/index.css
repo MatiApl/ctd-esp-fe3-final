@@ -1,0 +1,133 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+code {
+  	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",monospace;
+}
+.home, .contact, .detail, .favs {
+    padding: 2rem;
+}
+.navbar {
+	background-color: rgb(230, 230, 215);
+}
+nav {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+nav div {
+	display: flex;
+	width: 20vw;
+	align-items: center;
+	justify-content: space-around;
+}
+nav div i {
+    font-size: 2rem;
+    cursor: pointer;
+}
+footer {
+	background-color: grey;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	padding: 2rem 0;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+}
+footer div {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 4%;
+	color: red;
+}
+footer div:nth-child(1) img {
+	width: 200px;
+}
+footer div:nth-child(1) p {
+	width: 7vw;
+}
+.fa-brands {
+    font-size: 2rem;
+    margin-left: 0.5vw;
+	cursor: pointer;
+}
+.card-grid {
+	display: flex;
+	justify-content: flex-start;
+	gap: 1rem;
+	width: 85.88vw;
+	height: auto;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+.card {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+	padding: 0.5rem 0.5rem 0 0.5rem;
+	border: 0.5px solid rgb(136, 136, 136);
+}
+.favButton {
+	background-color: rgba(136, 136, 136, 0.116);
+	padding: 10px;
+	border: none;
+	width: 100%;
+	cursor: pointer;
+}
+
+.card:hover {
+	border: 0.5px solid rgb(206, 217, 142);
+}
+.card img {
+	width: 290px;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	display: table;
+	border: 1px solid grey;
+}
+td,
+th {
+	border: 1px solid grey;
+	text-align: left;
+	padding: 8px;
+}
+tr:nth-child(even) {
+ 	 background-color: #dddddd;
+}
+
+h1 {
+  	text-align: center;
+}
+
+
+
+a {
+    color: inherit;
+	text-decoration: none;
+	margin: 5px;
+	cursor: pointer;
+}
+a:hover {
+	color: rgb(136, 136, 136);
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 300px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+
